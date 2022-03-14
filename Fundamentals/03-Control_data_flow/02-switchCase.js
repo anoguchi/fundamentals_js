@@ -10,7 +10,6 @@ const terminal = readLine.createInterface({
 })
 
 const textMenu = `
-
     \nHello, welcome to media system\n
     Type 1 to access the main menu
     Type 2 to acess hero menu 
