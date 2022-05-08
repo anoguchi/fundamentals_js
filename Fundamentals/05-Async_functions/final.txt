@@ -1,0 +1,13 @@
+Hello
+World!
+Welcome
+to
+the 
+jungle
+Kobe
+Jordan
+James
+I
+will
+learn
+JS!

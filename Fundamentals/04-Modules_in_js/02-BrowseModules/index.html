@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Modules</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="operationType">Operation Type: </label>
+      <select name="operationType" id="operationType">
+        <option value="divide">Divide</option>
+        <option value="subtract">Subtract</option>
+      </select>
+      <br />
+      <br />
+      <label for="value01">Value01</label>
+      <input type="number" id="value01" />
+      <br />
+      <label for="value02">Value02</label>
+      <input type="number" id="value02" />
+      <br />
+      <br />
+      <input type="button" value="Calculate" id="btnCalculate" />
+      <input type="reset" value="Clean" id="btnClean" />
+      <br />
+      <br />
+      <output id="result">Result here!</output>
+    </form>
+    <script src="./main.js"></script>
+    <script src="./mathematic.js"></script>
+  </body>
+</html>
